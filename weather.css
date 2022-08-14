@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: red;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    animation: col 10s ease-out;
+}
+.ima{
+    width: 54px;
+    height: 54px;
+    border-radius: 20px;
+    position: relative;
+    top:-2cm;
+    animation: im 10s ease-out;
+}
+@keyframes im{
+    0%{
+        transform: translateX(-2cm);
+    }
+    100%{
+        transform: translateX(0cm);
+    }
+}
+@keyframes col{
+    0%{
+        background: rgb(68, 0, 255);
+        
+    }
+    100%{
+        background: red;
+        
+    }
+}
+
+.weat{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(243, 237, 237);
+    position: relative;
+    top: -1cm;
+    text-shadow: 0px 2px 7px black;
+    text-decoration:wavy;
+    animation: color 10s ease-in reverse;
+}
+@keyframes color{
+    0%{
+        color: rgb(243, 237, 237);
+        transform: translateX(0cm);
+    }
+    100%{
+        color: chartreuse;
+        transform: translateX(2cm);
+    }
+}
+input {
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    min-width: 300px;
+    animation: inp 10s ease-out;
+}
+@keyframes inp{
+    0%{
+        transform: translateY(3cm);
+    }
+    100%{
+        transform: translateY(0cm);
+    }
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
