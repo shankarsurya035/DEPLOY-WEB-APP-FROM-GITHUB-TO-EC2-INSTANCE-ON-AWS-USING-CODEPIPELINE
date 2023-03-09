@@ -9,11 +9,6 @@ Building Websites and then Copying the code manually to the server via ftp is no
 Explanation about Tools AWS CodePipeline – A continuous delivery service you can use to model, visualize, and automate the steps required to release your software. You can quickly model and configure the different stages of a software release process. CodePipeline automates the steps required to release your software changes continuously.
 <br>
 <br>
-Step 1: Create an EC2 instance for your application [Target] <br>
-Step 2: Create IAM Roles - CodeDeploy & EC2CodeDeploy <br>
-Step 3: Create Github repo treated as [Source]<br>
-Step 4: Create an application in CodeDeploy <br>
-Step 5: Create your first pipeline in CodePipeline <br>
 
 ![cicd-github-to-EC2_page-0001](https://user-images.githubusercontent.com/82276019/224101280-618fe100-23d9-401e-843d-ebcd93463e0b.jpg)
 ![cicd-github-to-EC2_page-0002](https://user-images.githubusercontent.com/82276019/224101291-554bb76f-825c-47aa-80d8-5fc8a7da2c93.jpg)
