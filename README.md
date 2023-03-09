@@ -4,6 +4,8 @@
 <br>
 <br>
 
+Building Websites and then Copying the code manually to the server via ftp is now a thing of the past. Having an automated system deploying the merged developer code in repo not only saves you time but also ensures that no changes are missed on the production deployent. Deployments have come a long way in the 10 years and the general goal today is to automate code deployments as much as possible. Let’s explore how we can deploy code from GitHub to EC2 using CodePipeline.
+
 Explanation about Tools AWS CodePipeline – A continuous delivery service you can use to model, visualize, and automate the steps required to release your software. You can quickly model and configure the different stages of a software release process. CodePipeline automates the steps required to release your software changes continuously.
 <br>
 <br>
